@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  http: any
+  crypto: any
 
 dev_dependencies:
   flutter_test:
