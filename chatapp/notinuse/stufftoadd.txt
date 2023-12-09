@@ -1,0 +1,17 @@
+To initialize Firebase, call Firebase.initializeApp from the firebase_core package 
+with the configuration from your new firebase_options.dart file:
+
+
+import 'package:firebase_core/firebase_core.dart';
+
+import 'firebase_options.dart';
+
+
+// ...
+
+
+await Firebase.initializeApp(
+
+    options: DefaultFirebaseOptions.currentPlatform,
+
+);
